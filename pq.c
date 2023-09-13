@@ -1,12 +1,12 @@
 //Shittiest Implementation of PQ 
 #include <stdlib.h>
 #include <stdio.h>
-
 enum Operation{
   Remove,
   Insert,
 };
 
+void display(enum Operation a);
 
 typedef struct
 {
