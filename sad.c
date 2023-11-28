@@ -5,8 +5,6 @@
 #define increase(arr) ((int*)realloc(arr,(size*2)*sizeof(int)));
 
 
-//queue in C using gaand
-
 int size=0;
 
 
@@ -46,7 +44,7 @@ int * del(int * arr){
     }
     return new;
     
-}
+                }
 
 int main()
 {   
