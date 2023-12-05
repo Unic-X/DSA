@@ -12,7 +12,6 @@ typedef struct DLinkedList{
   node * tail;
 }DLL;
 
-b
 /*DLL createDLL(int val){
   DLL list;
   node n;
@@ -105,6 +104,7 @@ node * create_list(int val){
   list->val=val;
   return list;
 }
+
 int main()
 {
   node * list = create_list(1);

@@ -184,7 +184,7 @@ void inorder_pred(node * root){
       current= current->r;
     }
     else {
-      return;
+    return;
     }
   }
   return; 
